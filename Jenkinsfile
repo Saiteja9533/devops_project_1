@@ -44,12 +44,5 @@ pipeline {
             }
          
         }
-        stage('Build docker image'){
-            agent any
-            steps{
-                script{
-                    
-    }
-}
-        }
-    }
+      
+  }
