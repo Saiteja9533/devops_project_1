@@ -198,7 +198,7 @@
   		 	 <configuration>
        				 <url>http://localhost:8084/manager/text</url>
        				 <server>TomcatServer</server>
-       				 <path>/myapp</path>
+       				 <path>/addressbook</path>
    			 </configuration>
 	</plugin>
 		
