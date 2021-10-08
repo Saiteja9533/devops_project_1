@@ -1,4 +1,4 @@
-package com.edurekademo.tutorial.addressbook;
+lpackage com.edurekademo.tutorial.addressbook;
 
 import javax.servlet.annotation.WebServlet;
 
@@ -76,7 +76,7 @@ public class AddressbookUI extends UI {
 
         contactList
                 .setContainerDataSource(new BeanItemContainer<>(Contact.class));
-        contactList.setColumnOrder("firstName", "lastName", "email");
+        contactList.setColumnOrder("email", "lastName", "firstName");
         contactList.removeColumn("id");
         contactList.removeColumn("birthDate");
         contactList.removeColumn("phone");
