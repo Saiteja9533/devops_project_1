@@ -21,4 +21,6 @@
       remote_src: yes
 
   - name: start tomcat services
-    shell: nohup /usr/local/apache-tomcat-9.0.44/bin/startup.sh
+      service:
+        name: tomcat
+        state: started
