@@ -1,6 +1,6 @@
 ---
 - name: installing the tomcat9
-  hosts: slave1
+  hosts: all
   become: yes
   become_user: root
   tasks:
